@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>David Ajide  Portfolio</title>
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <div class="content">
+    <nav data-aos="fade-down" data-aos-duration="800">
+      <div class="logo">
+        <i class="fas fa-cube"></i> 
+        DAVID AJIDE
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="/Work.html">Work</a>
+        <a href="/Studio.html">Studio</a>
+        <a href="/Connect.html">Connect</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-content">
+        <div class="badge" data-aos="fade-up" data-aos-duration="600">
+          <i class="fas fa-sparkle"></i> Frontend developer & 3D artist
+        </div>
+        <h1 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+          Building <span class="highlight">immersive</span><br>
+          digital worlds
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">I'm David Ajide — I blend code, art and a bit of wonder to create experiences that feel alive. Equipped with React js for modern frameworking and Three Js for beautiful 3D Designs</p>
+        <div class="btn-group" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <a href="/Work.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> See my work</a>
+          <a href="/Connect.html" class="btn btn-outline"><i class="far fa-comment"></i> Let's talk</a>
+        </div>
+        <div class="social-links" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="projects-preview">
+      <div class="project-card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
+        <i class="fas fa-cloud-moon"></i>
+        <h3>Lunar UI</h3>
+        <p>3D dashboard for space analytics</p>
+      </div>
+      <div class="project-card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">
+        <i class="fas fa-globe"></i>
+        <h3>Data globe</h3>
+        <p>real‑time WebGL visualization</p>
+      </div>
+      <div class="project-card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">
+        <i class="fas fa-cube"></i>
+        <h3>Kinetic type</h3>
+        <p>generative 3D experiments</p>
+      </div>
+    </div> -->
+
+    <!-- <div class="scroll-indicator" data-aos="fade-right" data-aos-duration="600">
+      <span>SCROLL</span>
+      <div class="line"></div>
+    </div> -->
+  </div>
+
+  <!-- Three.js imports -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.128.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.128.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
